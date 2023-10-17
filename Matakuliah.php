@@ -10,7 +10,10 @@
         $data = [
         'kode' => $this->input->post('kode'),
         'nama' => $this->input->post('nama'),
-        'sks' => $this->input->post('sks')];
+        'sks' => $this->input->post('sks'),
+        'nama' => $this->input->post('nama'),
+        'email' => $this->input->post('email'),
+        'komentar' => $this->input->post('komentar')];
         $this->load->view('view-data-matakuliah', $data);
     }
 }
